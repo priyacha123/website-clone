@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    /* border: 2px solid red; */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin: 12px 0px 9px 12px;
+
+}
+
+.logo img {
+    width: 90px;
+    padding: 0 60px;
+}
+.logo a{
+    height: 20px;
+    color: bisque;
+}
+
+nav ul {
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4px 1px;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 23px;
+}
+
+nav ul li a {
+    color: white;
+   text-decoration: none;
+   padding: auto;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.container2 {
+    background-color: white;
+    padding: 10px 78px;
+}
+.container2 ul  {
+    height: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0 18px; 
+}
+nav ul li {
+    padding: 23px;
+}
+.container2 ul li a{
+    color: black;
+    text-decoration: none;
+    font-size:small;
+    padding: 37px;
+    font-family: 'Lato', sans-serif;
+}
+.container2 ul li a:hover {
+    /* color: rgb(66, 53, 190); */
+    font-weight: bold;
+    color: #2874f0;
+
+    
+}
+.container3{
+    background-color: white;
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    padding: 15px 7px;
+}
+.container3 h2{
+    color: black;
+    padding: 6px 0px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    width: 33vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 0px 3px;
+}
+.login input {
+    width: 650px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 5px 0 10px;
+    padding: 0px 12px;
+}
+
+.btn {
+    padding: 3px 18px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn2 {
+    padding: 5px 38px;
+    color: var(--main-bg-color);
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin: 20px 50px;;
+}
+
+.btn2:hover {
+    font-weight: bold;
+}
+.search button {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+    font-weight: 700;
+}
+
+.cart{
+    margin: 20px 25px;
+    color: white;
+    font-size: 17px;
+}
+.cart img{
+    width: 20px;
+}
+.more{
+    margin: 24px 15px;
+    color: white;
+    font-size: 18px;
+}
+.more:hover {
+    font-weight: bold;
+}
+.cart:hover {
+    font-weight: bold;
+}
+
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+.card {
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+    border: 2px solid black;
+    padding: 15px;
+}
+.cricket{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.electronics{
+    display: flex;
+    flex-direction: row;
+}
+.smartphones{
+    display: flex;
+    flex-direction: row;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+}
+.fashions{
+    display: flex;
+    flex-direction: row;
+}
+.card-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    padding:0 60px;
+}
+.card-items-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    padding:0 60px;
+
+}
+
+.my-2{
+    margin: 26px 0px; 
+}
+.my-1{
+    margin: 6px 0px; 
+}
+.text-center{
+    text-align: center;
+}
+
+.slider {
+    margin: 12px 0px;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.last{
+    background-color:darkslategray;
+    display: flex;
+    flex-direction: row;
+    height: 265px;
+    padding: 34px 70px;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 60px 4px 0px;
+}
+.about2 a{
+    padding: 5px 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.about2:hover{
+    text-decoration: underline;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 79px 4px 0px;
+
+}
+.group a{
+    padding: 5px 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.group a:hover{
+    text-decoration: underline;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 48px 4px 0px;
+}
+.help a{
+    padding: 5px 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.consumer{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 58px 4px 0px;
+}
+.consumer a{
+    padding: 5px 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.consumer a:hover{
+    text-decoration: underline;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 37px 4px 0px;
+    border-left: 1px solid gray;
+}
+.mail p{
+    color: white;
+    padding: 0px 2px;
+    margin: 6px 10px ;
+    font-size: 12px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.office{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin: 6px 48px 4px 0px;
+}
+.office p{
+    padding: 5px 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+footer {
+    height: 12vh;
+    background-color: #a36c6c;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
